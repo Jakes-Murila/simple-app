@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Netflix Ultra Dashboard</title>
+
+  <link rel="stylesheet" href="dashboard.css">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+</head>
+
+<body>
+
+  <!-- ================= SIDEBAR ================= -->
+
+  <aside class="sidebar">
+
+    <div class="logo">
+      <h1>N</h1>
+    </div>
+
+    <ul class="menu">
+
+      <li><i class="fa-solid fa-house"></i></li>
+
+      <li><i class="fa-solid fa-fire"></i></li>
+
+      <li><i class="fa-solid fa-film"></i></li>
+
+      <li><i class="fa-solid fa-tv"></i></li>
+
+      <li><i class="fa-solid fa-bookmark"></i></li>
+
+      <li><i class="fa-solid fa-user"></i></li>
+
+    </ul>
+
+  </aside>
+
+  <!-- ================= MAIN ================= -->
+
+  <main class="main-content">
+
+    <!-- ================= TOPBAR ================= -->
+
+    <header class="topbar">
+
+      <div class="search-box">
+
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+        <input type="text" placeholder="Search movies...">
+
+      </div>
+
+      <div class="top-icons">
+
+        <i class="fa-solid fa-bell"></i>
+
+        <img src="https://i.pravatar.cc/45" alt="Profile">
+
+      </div>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+      <div class="hero-content">
+
+        <span class="tag">
+          NETFLIX ORIGINAL
+        </span>
+
+        <h1>CYBERPUNK 2099</h1>
+
+        <p>
+          In a dystopian future ruled by artificial intelligence,
+          one hacker uncovers a conspiracy powerful enough to
+          destroy humanity forever.
+        </p>
+
+        <div class="hero-buttons">
+
+          <button class="play-btn">
+
+            <i class="fa-solid fa-play"></i>
+
+            Play
+
+          </button>
+
+          <button class="list-btn">
+
+            <i class="fa-solid fa-plus"></i>
+
+            My List
+
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ================= GALLERY ================= -->
+
+    <section class="gallery-section">
+
+      <div class="section-title">
+
+        <h2>Featured Content</h2>
+
+        <span>Explore More</span>
+
+      </div>
+
+      <div class="gallery-grid">
+
+        <!-- FEATURED -->
+        <div class="featured-card">
+
+          <img
+            src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=1974"
+          >
+
+          <div class="overlay-content">
+
+            <h1>DUNE</h1>
+
+            <p>
+              Experience the rise of a legendary warrior.
+            </p>
+
+          </div>
+
+        </div>
+
+        <!-- VERTICAL -->
+        <div class="vertical-card">
+          <img src="https://picsum.photos/500/900?1">
+        </div>
+
+        <div class="vertical-card">
+          <img src="https://picsum.photos/500/900?2">
+        </div>
+
+        <!-- HORIZONTAL -->
+        <div class="horizontal-card">
+
+          <img src="https://picsum.photos/1200/500?3">
+
+        </div>
+
+        <!-- MORE -->
+        <div class="vertical-card">
+          <img src="https://picsum.photos/500/900?4">
+        </div>
+
+        <div class="vertical-card">
+          <img src="https://picsum.photos/500/900?5">
+        </div>
+
+        <!-- WIDE BANNER -->
+        <div class="wide-banner">
+
+          <img src="https://picsum.photos/1600/600?6">
+
+          <div class="banner-info">
+
+            <h1>THE DARK FUTURE</h1>
+
+            <button>Watch Now</button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ================= CONTINUE WATCHING ================= -->
+
+    <section class="continue-section">
+
+      <div class="section-title">
+
+        <h2>Continue Watching</h2>
+
+        <span>Recently Played</span>
+
+      </div>
+
+      <div class="continue-grid">
+
+        <!-- CARD -->
+        <div class="continue-card">
+
+          <img src="https://picsum.photos/900/500?7">
+
+          <div class="continue-content">
+
+            <h3>Breaking Bad</h3>
+
+            <div class="progress-bar">
+              <div class="progress"></div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- CARD -->
+        <div class="continue-card">
+
+          <img src="https://picsum.photos/900/500?8">
+
+          <div class="continue-content">
+
+            <h3>Stranger Things</h3>
+
+            <div class="progress-bar">
+              <div class="progress two"></div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+</body>
+</html>
